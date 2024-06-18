@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+#block-nav{
+  background-color: rgb(133, 69, 236);
+}
+
+.items-nav{
+  display: inline;
+}
+
+.btn-nav{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(133, 69, 236);
+  color: white; /* Color del texto */
+  border: 1px solid rgb(168, 124, 238); /* Sin bordes */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 20px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor a un puntero */
+}
+
+.btn-nav:hover {
+  background-color: rgb(225, 214, 241); /* Color de fondo al pasar el mouse */
+}
+
+.btn-nav:active {
+  background-color: rgb(225, 214, 241); /* Color de fondo al hacer clic */
+}
+
+.home-img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+h1{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 300;
+  color: black;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 250;
+  color: black;
+}
+
+h4{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50;
+  color: black;
+}
+
+.home-register{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.register-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Altura de la ventana completa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/Register.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-registerUser{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(133, 69, 236);
+  color: white; /* Color del texto */
+  border: 1px solid rgb(168, 124, 238); /* Sin bordes */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 25px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor a un puntero */
+}
+
+.btn-registerUser:hover {
+  background-color: rgb(225, 214, 241); /* Color de fondo al pasar el mouse */
+}
+
+.btn-registerUser:active {
+  background-color: rgb(225, 214, 241); /* Color de fondo al hacer clic */
+}
+
+.design-input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;  
+}
+
+.design-input:focus{
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: none; /* Quitar el borde azul predeterminado */
+}
+
+.login-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Altura de la ventana completa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/Login.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-login{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(215, 199, 240);
+  color: black; /* Color del texto */
+  border: 1px solid rgb(168, 124, 238); /* Sin bordes */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 25px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor a un puntero */
+}
+
+.btn-login:hover {
+  background-color: rgb(191, 158, 241); /* Color de fondo al pasar el mouse */
+}
+
+.btn-login:active {
+  background-color: rgb(196, 165, 243); /* Color de fondo al hacer clic */
+}
+
+.consult-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Altura de la ventana completa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/Consult.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.h1-consult{
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 300;
+  color: white;
+}
+
+.btn-consult{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(215, 199, 240);
+  color: black; 
+  border: 1px solid rgb(168, 124, 238); 
+  padding: 10px 20px; 
+  font-size: 25px; 
+  cursor: pointer; 
+}
+
+.btn-consult:hover {
+  background-color: rgb(191, 158, 241); 
+}
+
+.btn-consult:active {
+  background-color: rgb(196, 165, 243); 
+}
+
+.recordActivity-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Altura de la ventana completa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/RecordActivity.jpg');
+  background-size: cover;
+  background-position: center;
+}
